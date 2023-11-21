@@ -1,7 +1,9 @@
-Run script.sh
+Start postgres:
+```bash
+./start.sh
+```
 
 Connect to the db:
 ```bash
-psql -h 127.0.0.1 -p 8080 -U postgres
+./psql.sh
 ```
-Password is 'mysecretpassword'
